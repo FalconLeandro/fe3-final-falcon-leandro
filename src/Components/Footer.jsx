@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <div>
         <p>Powered by</p>
-        <img src=" /images/DH.png" alt='DH-logo' />
+        <img src=" ../dist/images/DH.png" alt='DH-logo' />
       </div>
       <p className='student'>Estilizado por <Link to='https://falconleandro.github.io/Trabajos/'>LeaDev</Link> </p>
 
