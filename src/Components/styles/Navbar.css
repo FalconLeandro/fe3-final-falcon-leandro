@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #555;
+}
+.navbarButtons{
+  display: flex;
+  flex-direction: column;
+}
+.navbarButtons h4 {
+  margin: 0;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* .button {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+} */
+button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}

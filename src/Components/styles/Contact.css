@@ -1,0 +1,16 @@
+.contact {
+    height: 57vh;
+    padding: 16px;
+  }
+  
+  .contact h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .contact p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 16px;
+  }

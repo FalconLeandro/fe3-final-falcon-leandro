@@ -1,0 +1,35 @@
+footer {
+    background-color: #f8f8f8;
+    padding: 16px;
+    text-align: center;
+    width: -webkit-fill-available;
+  }
+  
+  footer div {
+    margin-bottom: 16px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  footer img {
+    width: 100px;
+    height: auto;
+  }
+  
+  footer .student {
+    font-size: 12px;
+  }
+  
+  footer .student a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer .student a:hover {
+    color: #666;
+  }
