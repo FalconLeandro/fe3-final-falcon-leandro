@@ -27,7 +27,7 @@ const Card = ({ dentist }) => {
     <div className="card">
       <button className="addFav" onClick={addFav}>{findFav ? '🌟' : '⭐'}</button>
       <Link key={dentist.id} to={'/detalle/' + dentist.id} >
-        <img src=" images/doctor.jpg" alt='Doctor' />
+        <img src=" ./images/doctor.jpg" alt='Doctor' />
         <h1>{dentist.name}</h1>
         <h2>{dentist.username}</h2>
       </Link>
